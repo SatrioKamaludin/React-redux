@@ -3,6 +3,7 @@ import { Provider } from 'react-redux';
 import logo from './logo.svg';
 import './App.css';
 import store from './store/index.js';
+import Todos from './components/Todos';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <div className="App" >
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Learning redux</h1>
+        <Todos/>
       </div >
     </Provider>
   );
